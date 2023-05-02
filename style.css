@@ -7,9 +7,12 @@ background-color: #2D3540;
     height: 743px;
     background-image: url(./Untitled-1.png);
     background-repeat: no-repeat;
+    max-width: 100%;
     background-size: 50% 100%;
     background-position: right top;
+    background-size: auto;
     display: flex;
+    
 }
 
 h1 {
@@ -93,7 +96,6 @@ button {
     width: 203px;
     color: #FFFFFF;
     margin-top: 30px;
-    font-size: ;
     font-family: 'Poppins', sans-serif;
     border-radius: 4px;
     margin-left: 100px;
@@ -137,4 +139,86 @@ p {
     margin-top: 100px;
     padding-top: 100px;
     color: white;
+}
+
+@media (max-width: 960px) {
+   #hero {
+    background-image: none;
+    height: 350px;
+   }
+
+   h1 {
+    
+    font-size: 40px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    }
+
+    h5 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-size: regular;
+        line-height: 36px;
+        margin: 0 auto;
+        text-align: center;
+     
+    }
+    
+    #icons {
+        background-color: black;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 50px;
+        color: #FFFFFF;
+        opacity: 20%
+    }
+
+    p {
+    
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        color: white;
+        margin: 0 auto;
+    }
+    .contact-icons {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    #portfolio {
+        padding-bottom: 50px;
+    }
+
+    .btn-primary {
+        margin-top: 0;
+    }
+
+    .email {
+        margin-top: 10px;
+    }
+
+    .navbar-toggler {
+        color: white;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .navbar-toggler-icon {
+        color: white;
+    }
 }
