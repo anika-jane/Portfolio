@@ -214,7 +214,10 @@ p {
     }
 
     .email {
+        display: block;
+        margin: 0 auto;
         margin-top: 10px;
+        
     }
 
     .navbar-toggler {
