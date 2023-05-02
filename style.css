@@ -121,6 +121,7 @@ footer {
     font-size: 30px;
     margin-left: 100px;
     margin-left: 50px;
+    text-decoration: none;
 }
 
 .contact-icons:hover {
@@ -145,7 +146,7 @@ p {
    #hero {
     background-image: none;
     height: 350px;
-    margin: 0 auto;
+    display: block;
    }
 
    h1 {
@@ -155,16 +156,18 @@ p {
     color: #FFFFFF;
     margin: 0 auto;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     }
 
     h5 {
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
         font-size: regular;
-        margin: 0 auto;
+    margin: 0 auto;
         text-align: center;
-        max-width: 200px;
+        max-width: 300px;
+        margin-bottom: 20px;
      
     }
     
@@ -194,11 +197,12 @@ p {
       margin: 0 auto;
       display: flex;
       justify-content: space-around;
+      text-decoration: none;
 
     }
 
     .card {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     #portfolio {
